@@ -1,0 +1,11 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFydGgiLCJpZCI6IjYxYTVhOTQ2YzFkMmMxN2U2YWQ3ZTRkMyIsImlhdCI6MTYzODI0Njc3NH0.XEVrjmb-g9FpRWerdxMitE6lO3ufRTcb0YFn8e8QDYw
+
+{
+    "title":"first Blog with (middleware) loged in user",
+    "author": "John san",
+    "likes":99,
+    "url":"john@san.com",
+    "userId":"61a5a946c1d2c17e6ad7e4d3"
+}
