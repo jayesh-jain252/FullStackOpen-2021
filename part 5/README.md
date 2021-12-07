@@ -1,0 +1,1 @@
+Solutions to Part 5 Exercise 5.1 - 5.22
