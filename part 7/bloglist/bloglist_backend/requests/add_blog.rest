@@ -1,0 +1,11 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImpheSIsImlkIjoiNjFhZWRkMGI1ODU3YmZmYWEyNTM1ZmQ0IiwiaWF0IjoxNjM4ODQ5ODU1fQ.voixR9ziulKAhl1p5GFLs1jsvshFefg7-jcpfjQbCsc
+
+{
+    "title":"First Blog from a new user",
+    "author": "Newton",
+    "likes":9090,
+    "url":"newton@san.com",
+    "userId":"61aedd0b5857bffaa2535fd4"
+}
